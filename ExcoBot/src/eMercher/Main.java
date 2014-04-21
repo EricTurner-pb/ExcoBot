@@ -34,15 +34,13 @@ public class Main extends GameScript {
                 Time.sleep(25 * 1000);
                 break;
             case CHATSELL:
-                Keyboard.sendKeys("Selling " + derp + Data.ITEMNAME, true);
+                Keyboard.sendKeys("Selling " + Data.ITEMNAME, true);
                 break;
-            case TRADESELL;
+            case TRADESELL:
 
                 break;
             case TRADEBUY:
 
-                break;
-            default:
                 break;
         }
         return 0;
@@ -72,6 +70,5 @@ public class Main extends GameScript {
             return name().toLowerCase();
         }
     }
-
 
 }
